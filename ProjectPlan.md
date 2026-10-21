@@ -20,6 +20,15 @@ Geographic Distribution of VA Expenditures (GDX) (FY2023–FY2025)	VA NCVAS; Exc
 VetPop2023 County Data
 VA NCVAS; CSV; CC0	Estimated and projected veteran population by county, age group, and sex	FIPS, date, veterans	Provide population context for recipient counts
 
+
+Constraints:
+•	Data Availability: Some datasets may have missing values or information that is not available for every county. We will identify these issues and handle missing data carefully.
+•	Data Consistency: The datasets may use different column names, formats, or geographic identifiers. We will standardize the data before combining it.
+•	Data Integration: We need to make sure the datasets refer to the same counties and compatible fiscal years. We will check that county identifiers match before integrating the data.
+•	Expenditure Comparisons: VA expenditure data may include multiple programs, and reporting methods may differ between years. These differences could affect comparisons with recipient counts.
+•	Population Estimates: VetPop2023 includes projected population figures for years after FY2023. We will use FY2023 as our baseline when comparing recipient counts with veteran population.
+•	Reproducibility: The datasets may require different steps to download and prepare. We will document our process and use scripts and file integrity checks to help ensure that the workflow can be repeated since data reproducibility is very crucial. 
+
 How the datasets relate: All three are linked by the 5-digit county FIPS code and fiscal year. The recipient files and VetPop2023 include FIPS codes. GDX lists only state and county names, so we will build a crosswalk from the recipient files, which contain both names and FIPS codes, to attach FIPS codes to GDX.
 
 

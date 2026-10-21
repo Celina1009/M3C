@@ -14,11 +14,31 @@ Research Questions:
 How did VA disability compensation recipient counts and expenditures change across U.S. counties from FY2023 to FY2025?
 
 Datasets:
-Dataset	Source & format	What it provides	Key fields	How we will use it
-VA Disability Compensation Recipients by County (FY2023, FY2024, FY2025)	VA NCVAS; CSV; CC0	Number of veterans receiving disability compensation in each county at the end of each fiscal year 	FIPS code, county name, total recipients	Track changes in recipient counts over time
-Geographic Distribution of VA Expenditures (GDX) (FY2023–FY2025)	VA NCVAS; Excel	VA spending by county and program, including Compensation & Pension 	State, county name, C&P expenditures	Compare spending patterns with changes in recipient counts
-VetPop2023 County Data
-VA NCVAS; CSV; CC0	Estimated and projected veteran population by county, age group, and sex	FIPS, date, veterans	Provide population context for recipient counts
+VA Disability Compensation Recipients by County (FY2023, FY2024, FY2025)
+Dataset Title & Link: VA Disability Compensation Recipients by County
+URL: https://catalog.data.gov/dataset/fy-2025-disability-compensation-recipients-by-county
+Source & Format: VA NCVAS; CSV; CC0   
+What it Provides: Number of veterans receiving disability compensation in each county at the end of each fiscal year   
+Key Fields: FIPS code, county name, total recipients   
+How We Will Use It: Track changes in recipient counts over time   
+
+Geographic Distribution of VA Expenditures (GDX) (FY2023–FY2025)
+Dataset Title & Link: Geographic Distribution of VA Expenditures (GDX)   
+URL: https://www.va.gov/vetdata/Expenditures.asp
+Source & Format: VA NCVAS; Excel   
+What it Provides: VA spending by county and program, including Compensation & Pension   
+Key Fields: State, county name, C&P expenditures   
+How We Will Use It: Compare spending patterns with changes in recipient counts   
+
+VetPop2023 County Data   
+Dataset Title & Link: VetPop2023 County Data   
+URL: https://catalog.data.gov/dataset/vetpop2023-county-data-9l
+Source & Format: VA NCVAS; CSV; CC0   
+What it Provides: Estimated and projected veteran population by county, age group, and sex   
+Key Fields: FIPS, date, veterans   
+How We Will Use It: Provide population context for recipient counts
+
+How the datasets relate: All three are linked by the 5-digit county FIPS code and fiscal year. The recipient files and VetPop2023 include FIPS codes. GDX lists only state and county names, so we will build a crosswalk from the recipient files, which contain both names and FIPS codes, to attach FIPS codes to GDX.
 
 
 Constraints:

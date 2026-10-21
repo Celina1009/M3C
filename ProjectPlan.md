@@ -19,6 +19,7 @@ VA Disability Compensation Recipients by County (FY2023, FY2024, FY2025)	VA NCVA
 Geographic Distribution of VA Expenditures (GDX) (FY2023–FY2025)	VA NCVAS; Excel	VA spending by county and program, including Compensation & Pension 	State, county name, C&P expenditures	Compare spending patterns with changes in recipient counts
 VetPop2023 County Data
 VA NCVAS; CSV; CC0	Estimated and projected veteran population by county, age group, and sex	FIPS, date, veterans	Provide population context for recipient counts
+
 How the datasets relate: All three are linked by the 5-digit county FIPS code and fiscal year. The recipient files and VetPop2023 include FIPS codes. GDX lists only state and county names, so we will build a crosswalk from the recipient files, which contain both names and FIPS codes, to attach FIPS codes to GDX.
 
 

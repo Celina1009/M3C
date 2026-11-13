@@ -1,0 +1,268 @@
+fiscal_year,state_name,county_name,source_type
+2023,Arkansas,SAINT FRANCIS,AR
+2023,Florida,DE SOTO,FL
+2023,Florida,SAINT JOHNS,FL
+2023,Florida,SAINT LUCIE,FL
+2023,Illinois,DEWITT,IL
+2023,Illinois,DU PAGE,IL
+2023,Illinois,LA SALLE,IL
+2023,Indiana,LA PORTE,IN
+2023,Missouri,SAINTE GENEVIEVE,MO
+2023,Mississippi,DE SOTO,MS
+2023,North Dakota,LA MOURE,ND
+2023,New Mexico,MC KINLEY,NM
+2023,Texas,DE WITT,TX
+2024,Alabama,De Kalb,County Direct + County Indirect
+2024,Alabama,Saint Clair,County Direct + County Indirect
+2024,Arkansas,Saint Francis,County Direct + County Indirect
+2024,Connecticut,Capitol,County Direct + County Indirect
+2024,Connecticut,Greater Bridgeport,County Direct + County Indirect
+2024,Connecticut,Lower Connecticut River Valley,County Direct + County Indirect
+2024,Connecticut,Naugatuck Valley,County Direct + County Indirect
+2024,Connecticut,Northeastern Connecticut,County Direct + County Indirect
+2024,Connecticut,Northwest Hills,County Direct + County Indirect
+2024,Connecticut,South Central Connecticut,County Direct + County Indirect
+2024,Connecticut,Southeastern Connecticut,County Direct + County Indirect
+2024,Connecticut,Western Connecticut,County Direct + County Indirect
+2024,Florida,De Soto,County Direct + County Indirect
+2024,Florida,Saint Johns,County Direct + County Indirect
+2024,Florida,Saint Lucie,County Direct + County Indirect
+2024,Georgia,De Kalb,County Direct + County Indirect
+2024,Guam,Guam,County Direct + County Indirect
+2024,Illinois,De Kalb,County Direct + County Indirect
+2024,Illinois,Du Page,County Direct + County Indirect
+2024,Illinois,La Salle,County Direct + County Indirect
+2024,Illinois,Saint Clair,County Direct + County Indirect
+2024,Indiana,De Kalb,County Direct + County Indirect
+2024,Indiana,La Porte,County Direct + County Indirect
+2024,Louisiana,Saint Bernard,County Direct + County Indirect
+2024,Louisiana,Saint Charles,County Direct + County Indirect
+2024,Louisiana,Saint Helena,County Direct + County Indirect
+2024,Louisiana,Saint James,County Direct + County Indirect
+2024,Louisiana,Saint John The Baptist,County Direct + County Indirect
+2024,Louisiana,Saint Landry,County Direct + County Indirect
+2024,Louisiana,Saint Martin,County Direct + County Indirect
+2024,Louisiana,Saint Mary,County Direct + County Indirect
+2024,Louisiana,Saint Tammany,County Direct + County Indirect
+2024,Maryland,Saint Mary's,County Direct + County Indirect
+2024,Michigan,Saint Clair,County Direct + County Indirect
+2024,Michigan,Saint Joseph,County Direct + County Indirect
+2024,Minnesota,Saint Louis,County Direct + County Indirect
+2024,Mississippi,De Soto,County Direct + County Indirect
+2024,Missouri,De Kalb,County Direct + County Indirect
+2024,Missouri,Saint Charles,County Direct + County Indirect
+2024,Missouri,Saint Clair,County Direct + County Indirect
+2024,Missouri,Saint Louis,County Direct + County Indirect
+2024,Missouri,Saint Louis City,County Direct + County Indirect
+2024,Missouri,Sainte Genevieve,County Direct + County Indirect
+2024,New York,Saint Lawrence,County Direct + County Indirect
+2024,North Dakota,La Moure,County Direct + County Indirect
+2024,Puerto Rico,Adjuntas,County Direct + County Indirect
+2024,Puerto Rico,Aguada,County Direct + County Indirect
+2024,Puerto Rico,Aguadilla,County Direct + County Indirect
+2024,Puerto Rico,Aguas Buenas,County Direct + County Indirect
+2024,Puerto Rico,Aibonito,County Direct + County Indirect
+2024,Puerto Rico,Anasco,County Direct + County Indirect
+2024,Puerto Rico,Arecibo,County Direct + County Indirect
+2024,Puerto Rico,Arroyo,County Direct + County Indirect
+2024,Puerto Rico,Barceloneta,County Direct + County Indirect
+2024,Puerto Rico,Barranquitas,County Direct + County Indirect
+2024,Puerto Rico,Bayamon,County Direct + County Indirect
+2024,Puerto Rico,Cabo Rojo,County Direct + County Indirect
+2024,Puerto Rico,Caguas,County Direct + County Indirect
+2024,Puerto Rico,Camuy,County Direct + County Indirect
+2024,Puerto Rico,Canovanas,County Direct + County Indirect
+2024,Puerto Rico,Carolina,County Direct + County Indirect
+2024,Puerto Rico,Catano,County Direct + County Indirect
+2024,Puerto Rico,Cayey,County Direct + County Indirect
+2024,Puerto Rico,Ceiba,County Direct + County Indirect
+2024,Puerto Rico,Ciales,County Direct + County Indirect
+2024,Puerto Rico,Cidra,County Direct + County Indirect
+2024,Puerto Rico,Coamo,County Direct + County Indirect
+2024,Puerto Rico,Comerio,County Direct + County Indirect
+2024,Puerto Rico,Corozal,County Direct + County Indirect
+2024,Puerto Rico,Culebra,County Direct + County Indirect
+2024,Puerto Rico,Dorado,County Direct + County Indirect
+2024,Puerto Rico,Fajardo,County Direct + County Indirect
+2024,Puerto Rico,Florida,County Direct + County Indirect
+2024,Puerto Rico,Guanica,County Direct + County Indirect
+2024,Puerto Rico,Guayama,County Direct + County Indirect
+2024,Puerto Rico,Guayanilla,County Direct + County Indirect
+2024,Puerto Rico,Guaynabo,County Direct + County Indirect
+2024,Puerto Rico,Gurabo,County Direct + County Indirect
+2024,Puerto Rico,Hatillo,County Direct + County Indirect
+2024,Puerto Rico,Hormigueros,County Direct + County Indirect
+2024,Puerto Rico,Humacao,County Direct + County Indirect
+2024,Puerto Rico,Isabela,County Direct + County Indirect
+2024,Puerto Rico,Jayuya,County Direct + County Indirect
+2024,Puerto Rico,Juana Diaz,County Direct + County Indirect
+2024,Puerto Rico,Juncos,County Direct + County Indirect
+2024,Puerto Rico,Lajas,County Direct + County Indirect
+2024,Puerto Rico,Lares,County Direct + County Indirect
+2024,Puerto Rico,Las Marias,County Direct + County Indirect
+2024,Puerto Rico,Las Piedras,County Direct + County Indirect
+2024,Puerto Rico,Loiza,County Direct + County Indirect
+2024,Puerto Rico,Luquillo,County Direct + County Indirect
+2024,Puerto Rico,Manati,County Direct + County Indirect
+2024,Puerto Rico,Maricao,County Direct + County Indirect
+2024,Puerto Rico,Maunabo,County Direct + County Indirect
+2024,Puerto Rico,Mayaguez,County Direct + County Indirect
+2024,Puerto Rico,Moca,County Direct + County Indirect
+2024,Puerto Rico,Morovis,County Direct + County Indirect
+2024,Puerto Rico,Naguabo,County Direct + County Indirect
+2024,Puerto Rico,Naranjito,County Direct + County Indirect
+2024,Puerto Rico,Orocovis,County Direct + County Indirect
+2024,Puerto Rico,Patillas,County Direct + County Indirect
+2024,Puerto Rico,Penuelas,County Direct + County Indirect
+2024,Puerto Rico,Ponce,County Direct + County Indirect
+2024,Puerto Rico,Quebradillas,County Direct + County Indirect
+2024,Puerto Rico,Rincon,County Direct + County Indirect
+2024,Puerto Rico,Rio Grande,County Direct + County Indirect
+2024,Puerto Rico,Sabana Grande,County Direct + County Indirect
+2024,Puerto Rico,Salinas,County Direct + County Indirect
+2024,Puerto Rico,San German,County Direct + County Indirect
+2024,Puerto Rico,San Juan,County Direct + County Indirect
+2024,Puerto Rico,San Lorenzo,County Direct + County Indirect
+2024,Puerto Rico,San Sebastian,County Direct + County Indirect
+2024,Puerto Rico,Santa Isabel,County Direct + County Indirect
+2024,Puerto Rico,Toa Alta,County Direct + County Indirect
+2024,Puerto Rico,Toa Baja,County Direct + County Indirect
+2024,Puerto Rico,Trujillo Alto,County Direct + County Indirect
+2024,Puerto Rico,Utuado,County Direct + County Indirect
+2024,Puerto Rico,Vega Alta,County Direct + County Indirect
+2024,Puerto Rico,Vega Baja,County Direct + County Indirect
+2024,Puerto Rico,Vieques,County Direct + County Indirect
+2024,Puerto Rico,Villalba,County Direct + County Indirect
+2024,Puerto Rico,Yabucoa,County Direct + County Indirect
+2024,Puerto Rico,Yauco,County Direct + County Indirect
+2024,Tennessee,De Kalb,County Direct + County Indirect
+2024,Texas,De Witt,County Direct + County Indirect
+2024,Virginia,Bristol,County Direct + County Indirect
+2024,Wisconsin,Saint Croix,County Direct + County Indirect
+2025,Alabama,De Kalb,County Direct + County Indirect
+2025,Alabama,Saint Clair,County Direct + County Indirect
+2025,Arkansas,Saint Francis,County Direct + County Indirect
+2025,Connecticut,Capitol,County Direct + County Indirect
+2025,Connecticut,Greater Bridgeport,County Direct + County Indirect
+2025,Connecticut,Lower Connecticut River Valley,County Direct + County Indirect
+2025,Connecticut,Naugatuck Valley,County Direct + County Indirect
+2025,Connecticut,Northeastern Connecticut,County Direct + County Indirect
+2025,Connecticut,Northwest Hills,County Direct + County Indirect
+2025,Connecticut,South Central Connecticut,County Direct + County Indirect
+2025,Connecticut,Southeastern Connecticut,County Direct + County Indirect
+2025,Connecticut,Western Connecticut,County Direct + County Indirect
+2025,Florida,De Soto,County Direct + County Indirect
+2025,Florida,Saint Johns,County Direct + County Indirect
+2025,Florida,Saint Lucie,County Direct + County Indirect
+2025,Georgia,De Kalb,County Direct + County Indirect
+2025,Guam,Guam,County Direct + County Indirect
+2025,Illinois,De Kalb,County Direct + County Indirect
+2025,Illinois,Du Page,County Direct + County Indirect
+2025,Illinois,La Salle,County Direct + County Indirect
+2025,Illinois,Saint Clair,County Direct + County Indirect
+2025,Indiana,De Kalb,County Direct + County Indirect
+2025,Indiana,La Porte,County Direct + County Indirect
+2025,Louisiana,Saint Bernard,County Direct + County Indirect
+2025,Louisiana,Saint Charles,County Direct + County Indirect
+2025,Louisiana,Saint Helena,County Direct + County Indirect
+2025,Louisiana,Saint James,County Direct + County Indirect
+2025,Louisiana,Saint John The Baptist,County Direct + County Indirect
+2025,Louisiana,Saint Landry,County Direct + County Indirect
+2025,Louisiana,Saint Martin,County Direct + County Indirect
+2025,Louisiana,Saint Mary,County Direct + County Indirect
+2025,Louisiana,Saint Tammany,County Direct + County Indirect
+2025,Maryland,Saint Mary's,County Direct + County Indirect
+2025,Michigan,Saint Clair,County Direct + County Indirect
+2025,Michigan,Saint Joseph,County Direct + County Indirect
+2025,Minnesota,Saint Louis,County Direct + County Indirect
+2025,Mississippi,De Soto,County Direct + County Indirect
+2025,Missouri,De Kalb,County Direct + County Indirect
+2025,Missouri,Saint Charles,County Direct + County Indirect
+2025,Missouri,Saint Clair,County Direct + County Indirect
+2025,Missouri,Saint Louis,County Direct + County Indirect
+2025,Missouri,Saint Louis City,County Direct + County Indirect
+2025,Missouri,Sainte Genevieve,County Direct + County Indirect
+2025,New York,Saint Lawrence,County Direct + County Indirect
+2025,North Dakota,La Moure,County Direct + County Indirect
+2025,Puerto Rico,Adjuntas,County Direct + County Indirect
+2025,Puerto Rico,Aguada,County Direct + County Indirect
+2025,Puerto Rico,Aguadilla,County Direct + County Indirect
+2025,Puerto Rico,Aguas Buenas,County Direct + County Indirect
+2025,Puerto Rico,Aibonito,County Direct + County Indirect
+2025,Puerto Rico,Anasco,County Direct + County Indirect
+2025,Puerto Rico,Arecibo,County Direct + County Indirect
+2025,Puerto Rico,Arroyo,County Direct + County Indirect
+2025,Puerto Rico,Barceloneta,County Direct + County Indirect
+2025,Puerto Rico,Barranquitas,County Direct + County Indirect
+2025,Puerto Rico,Bayamon,County Direct + County Indirect
+2025,Puerto Rico,Cabo Rojo,County Direct + County Indirect
+2025,Puerto Rico,Caguas,County Direct + County Indirect
+2025,Puerto Rico,Camuy,County Direct + County Indirect
+2025,Puerto Rico,Canovanas,County Direct + County Indirect
+2025,Puerto Rico,Carolina,County Direct + County Indirect
+2025,Puerto Rico,Catano,County Direct + County Indirect
+2025,Puerto Rico,Cayey,County Direct + County Indirect
+2025,Puerto Rico,Ceiba,County Direct + County Indirect
+2025,Puerto Rico,Ciales,County Direct + County Indirect
+2025,Puerto Rico,Cidra,County Direct + County Indirect
+2025,Puerto Rico,Coamo,County Direct + County Indirect
+2025,Puerto Rico,Comerio,County Direct + County Indirect
+2025,Puerto Rico,Corozal,County Direct + County Indirect
+2025,Puerto Rico,Culebra,County Direct + County Indirect
+2025,Puerto Rico,Dorado,County Direct + County Indirect
+2025,Puerto Rico,Fajardo,County Direct + County Indirect
+2025,Puerto Rico,Florida,County Direct + County Indirect
+2025,Puerto Rico,Guanica,County Direct + County Indirect
+2025,Puerto Rico,Guayama,County Direct + County Indirect
+2025,Puerto Rico,Guayanilla,County Direct + County Indirect
+2025,Puerto Rico,Guaynabo,County Direct + County Indirect
+2025,Puerto Rico,Gurabo,County Direct + County Indirect
+2025,Puerto Rico,Hatillo,County Direct + County Indirect
+2025,Puerto Rico,Hormigueros,County Direct + County Indirect
+2025,Puerto Rico,Humacao,County Direct + County Indirect
+2025,Puerto Rico,Isabela,County Direct + County Indirect
+2025,Puerto Rico,Jayuya,County Direct + County Indirect
+2025,Puerto Rico,Juana Diaz,County Direct + County Indirect
+2025,Puerto Rico,Juncos,County Direct + County Indirect
+2025,Puerto Rico,Lajas,County Direct + County Indirect
+2025,Puerto Rico,Lares,County Direct + County Indirect
+2025,Puerto Rico,Las Marias,County Direct + County Indirect
+2025,Puerto Rico,Las Piedras,County Direct + County Indirect
+2025,Puerto Rico,Loiza,County Direct + County Indirect
+2025,Puerto Rico,Luquillo,County Direct + County Indirect
+2025,Puerto Rico,Manati,County Direct + County Indirect
+2025,Puerto Rico,Maricao,County Direct + County Indirect
+2025,Puerto Rico,Maunabo,County Direct + County Indirect
+2025,Puerto Rico,Mayaguez,County Direct + County Indirect
+2025,Puerto Rico,Moca,County Direct + County Indirect
+2025,Puerto Rico,Morovis,County Direct + County Indirect
+2025,Puerto Rico,Naguabo,County Direct + County Indirect
+2025,Puerto Rico,Naranjito,County Direct + County Indirect
+2025,Puerto Rico,Orocovis,County Direct + County Indirect
+2025,Puerto Rico,Patillas,County Direct + County Indirect
+2025,Puerto Rico,Penuelas,County Direct + County Indirect
+2025,Puerto Rico,Ponce,County Direct + County Indirect
+2025,Puerto Rico,Quebradillas,County Direct + County Indirect
+2025,Puerto Rico,Rincon,County Direct + County Indirect
+2025,Puerto Rico,Rio Grande,County Direct + County Indirect
+2025,Puerto Rico,Sabana Grande,County Direct + County Indirect
+2025,Puerto Rico,Salinas,County Direct + County Indirect
+2025,Puerto Rico,San German,County Direct + County Indirect
+2025,Puerto Rico,San Juan,County Direct + County Indirect
+2025,Puerto Rico,San Lorenzo,County Direct + County Indirect
+2025,Puerto Rico,San Sebastian,County Direct + County Indirect
+2025,Puerto Rico,Santa Isabel,County Direct + County Indirect
+2025,Puerto Rico,Toa Alta,County Direct + County Indirect
+2025,Puerto Rico,Toa Baja,County Direct + County Indirect
+2025,Puerto Rico,Trujillo Alto,County Direct + County Indirect
+2025,Puerto Rico,Utuado,County Direct + County Indirect
+2025,Puerto Rico,Vega Alta,County Direct + County Indirect
+2025,Puerto Rico,Vega Baja,County Direct + County Indirect
+2025,Puerto Rico,Vieques,County Direct + County Indirect
+2025,Puerto Rico,Villalba,County Direct + County Indirect
+2025,Puerto Rico,Yabucoa,County Direct + County Indirect
+2025,Puerto Rico,Yauco,County Direct + County Indirect
+2025,Tennessee,De Kalb,County Direct + County Indirect
+2025,Texas,De Witt,County Direct + County Indirect
+2025,Virginia,Bristol,County Direct + County Indirect
+2025,Wisconsin,Saint Croix,County Direct + County Indirect

@@ -1,7 +1,9 @@
 # Milestone 3: Interim Status Report
 
 **Project:** VA Disability Compensation Recipients and Expenditures by County
+
 **Team:** M3C
+
 **Date:** November 19, 2026
 
 ## 1. Project Overview

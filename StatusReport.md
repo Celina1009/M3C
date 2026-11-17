@@ -110,7 +110,7 @@ Monika worked on the geographic crosswalk and integration of the three datasets.
 
 ### Celina Saeki – Data Lead
 
-[Celina: Add a short summary of your contributions to data acquisition, cleaning, standardization, and quality checks. Please commit your own contribution.]
+I led the data acquisition, cleaning, and standardization workflows for all seven core datasets across FY2023–FY2025 VA Disability Compensation recipients, FY2023–FY2025 GDX expenditures, and VetPop2023 county-level demographics. I developed and executed `clean_va_data.py` to parse raw files and resolve formatting inconsistencies, followed by `standardize_cleaned_data.py` to align column names, schemas, and data types into integration-ready CSV files. I also conducted quality checks across the cleaned and standardized outputs to verify record completeness and schema consistency, and pushed the completed scripts and processed datasets to GitHub.
 
 ### Millie Chu – Analysis Lead
 

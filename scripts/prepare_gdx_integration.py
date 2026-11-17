@@ -2,7 +2,8 @@
 """Prepare county-level GDX datasets for FY2023-FY2025.
 
 Reads original GDX workbooks and the FY2023 VA recipient file as a
-state/county-to-FIPS lookup. FY2023 territory sheets are excluded from
+state/county-to-FIPS lookup. Incompatible geographies (Connecticut planning
+regions, Puerto Rico municipalities, and Guam aggregate) are excluded from
 county-level output. Does not modify raw, cleaned, or existing
 IntegrationReady files.
 
@@ -57,6 +58,22 @@ def normalize(value):
     return re.sub(r"\s+", " ", value).strip()
 
 
+def county_match_key(value):
+    """Normalize county-name variants for matching without changing display names."""
+    key = normalize(value)
+    key = re.sub(r"\bSAINT\b", "ST", key)
+    key = re.sub(r"\bSAINTE\b", "STE", key)
+    key = key.replace(" ", "")
+
+    # One known abbreviated county-equivalent name in the GDX workbook.
+    if key == "FAIRBANKSNSTAR":
+        key = "FAIRBANKSNORTHSTAR"
+    if key == "BRISTOL":
+        key = "BRISTOLCITY"
+
+    return key
+
+
 def to_number(series):
     return pd.to_numeric(
         series.astype("string")
@@ -87,7 +104,7 @@ def build_fips_lookup():
         raise ValueError(f"Lookup file must contain {required}")
 
     data["state_key"] = data["State"].map(normalize)
-    data["county_key"] = data["County Name"].map(normalize)
+    data["county_key"] = data["County Name"].map(county_match_key)
     data["county_fips"] = (
         data["FIPS code"].astype("string").str.strip()
         .str.replace(r"\.0$", "", regex=True).str.zfill(5)
@@ -114,10 +131,16 @@ def attach_geography(data, state_col, county_col, lookup, fiscal_year):
         & (out["state_name"] != "")
         & (out["county_name"] != "")
         & (out["county_name"].str.upper() != "TOTALS")
+        # These geographies do not align with the recipient county-level dataset:
+        # Connecticut uses planning regions; Puerto Rico uses municipalities;
+        # Guam is reported as a territory-wide aggregate.
+        & ~out["state_name"].map(normalize).isin(
+            {"CONNECTICUT", "PUERTO RICO", "GUAM"}
+        )
     ].copy()
 
     out["state_key"] = out["state_name"].map(normalize)
-    out["county_key"] = out["county_name"].map(normalize)
+    out["county_key"] = out["county_name"].map(county_match_key)
     out["county_fips"] = [
         lookup.get((s, c), pd.NA)
         for s, c in zip(out["state_key"], out["county_key"])
@@ -189,17 +212,6 @@ def prepare_2023(lookup):
             & data["compensation_pension_usd"].notna()
         )
         data = data.loc[valid_county_row].copy()
-
-        # Documented spelling/abbreviation variants between the GDX workbook
-        # and the FY2023 recipient county lookup.
-        county_aliases = {
-            "FAIRBANKS N STAR": "FAIRBANKS NORTH STAR",
-            "DE KALB": "DEKALB",
-            "SAINT CLAIR": "ST CLAIR",
-        }
-        data["county_name"] = data["county_name"].map(
-            lambda value: county_aliases.get(normalize(value), value)
-        )
 
         data = attach_geography(
             data, "state_name", "county_name", lookup, 2023

@@ -1,0 +1,4 @@
+fiscal_year,recipient_counties,integrated_rows,unique_fips,gdx_matched,gdx_unmatched,vetpop_matched,vetpop_unmatched,missing_compensation_pension,missing_vetpop_baseline
+2023,3144,3144,3144,3135,9,3135,9,9,9
+2024,3145,3145,3145,3135,10,3144,1,10,1
+2025,3145,3145,3145,3135,10,3144,1,10,1

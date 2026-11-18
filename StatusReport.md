@@ -73,7 +73,7 @@ The following table shows our updated timeline based on our progress so far.
 | Dataset integration and validation  | Complete               | Completed               |
 | EDA and visualizations              | Upcoming / In progress | [Add date]              |
 | Workflow automation                 | In progress            | [Add date]              |
-| Data dictionary and documentation   | In progress            | [Add date]              |
+| Data dictionary and documentation   | Completed              | Completed               |
 | Reproducibility testing             | Pending                | Before final submission |
 | Final report and presentation       | Pending                | Week 6                  |
 
@@ -118,7 +118,7 @@ I led the data acquisition, cleaning, and standardization workflows for all seve
 
 ### Manasa Thangappan – Documentation Lead
 
-[Manasa: Add a short summary of your contributions to the data lifecycle, licensing research, citations, metadata, and documentation. Please commit your own contribution.]
+I prepared documentation connecting the project’s data acquisition, quality assessment, cleaning, integration, analysis, and preservation stages. I researched the datasets’ licensing and reuse terms, compiled source citations, and documented ethical guidelines for handling suppressed recipient counts. I also drafted a data dictionary describing variables, units, missing values, and proposed derived measures, along with machine-readable metadata identifying the datasets and their sources. Additionally, I documented limitations involving expenditure definitions, geographic changes, and projected veteran populations to support reproducibility and accurate interpretation of the results.
 
 ## 7. Next Steps
 

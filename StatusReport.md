@@ -114,7 +114,7 @@ I led the data acquisition, cleaning, and standardization workflows for all seve
 
 ### Millie Chu – Analysis Lead
 
-[Millie: Add a short summary of your contributions to data analysis, EDA, statistical comparisons, and visualizations. Please commit your own contribution.]
+I conducted Exploratory Data Analysis (EDA) on the integrated FY2023–FY2025 datasets to investigate changes in VA disability compensation recipient counts and compensation/pension expenditures across U.S. counties and states. I calculated the absolute and percentage changes in both variables by combining and reshaping the datasets so that I can directly compare between years. I saved the summary statistics as separate CSV files and created visualizations to communicate the results. At the county level, I created histograms showing the distributions of percentage changes and a scatterplot examining the relationship between recipient and expenditure growth. At the state level, I created a horizontal bar chart comparing recipient and expenditure growth for the five states with the highest and lowest recipient growth. 
 
 ### Manasa Thangappan – Documentation Lead
 
@@ -122,7 +122,7 @@ I prepared documentation connecting the project’s data acquisition, quality as
 
 ## 7. Next Steps
 
-Our main focus now is to begin analyzing the integrated datasets. We plan to examine changes in recipient counts and Compensation & Pension expenditures across counties, identify geographic patterns, and create visualizations to answer our research question.
+Our main focus now is to conduct a final data quality assessment evaluate the accuracy, completeness, and consistency of the integrated datasets.
 
 We also need to finish the data dictionary, document the complete workflow, test reproducibility, and prepare the final report and presentation.
 

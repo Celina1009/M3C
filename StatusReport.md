@@ -33,7 +33,7 @@ The table below summarizes the progress made on the tasks from our original proj
 | Build geographic crosswalk              | Complete                  | Matched GDX county names to FIPS codes using recipient data and resolved naming differences where possible.                                                   |
 | Integrate datasets                      | Complete                  | Combined the recipient, GDX, and VetPop datasets into three county-level datasets for FY2023, FY2024, and FY2025.                                             |
 | Assess quality after integration        | Complete                  | Checked duplicate FIPS codes, missing values, row counts, and unmatched counties.                                                                             |
-| Analyze and visualize results           | Not started / In progress | The integrated datasets are ready for the Analysis Lead to begin EDA and create visualizations.                                                               |
+| Analyze and visualize results           | Complete                  | Completed analysis on the integreated dataset and created visualizations to examine changes in recipient counts and Compensation & Pension expenditures from FY2023 to FY2025                                                               |
 | Automate workflow and record provenance | In progress               | Created separate scripts for GDX preparation, VetPop preparation, and dataset integration. Full workflow automation is still needed.                          |
 | Create metadata and documentation       | In progress               | Data source documentation is available. A complete data dictionary and metadata still need to be created.                                                     |
 | Verify reproducibility                  | Pending                   | Dependencies are recorded in `requirements.txt`. The complete workflow still needs to be tested from a fresh repository clone.                                |
@@ -60,6 +60,11 @@ The main project files are available in our [GitHub repository](https://github.c
 - `scripts/prepare_vetpop.py`
 - `scripts/integrate_datasets.py`
 
+**Analusis Script and Result:**
+
+- [`analyze_va_data.py`](https://github.com/Celina1009/M3C/blob/main/scripts/analyze_va_data.py)
+- [`results/analysis` folder](https://github.com/Celina1009/M3C/tree/main/results/analysis)
+
 ## 3. Updated Timeline
 
 The following table shows our updated timeline based on our progress so far.
@@ -71,8 +76,8 @@ The following table shows our updated timeline based on our progress so far.
 | Data cleaning and quality checks    | Complete               | Completed               |
 | Geographic crosswalk                | Complete               | Completed               |
 | Dataset integration and validation  | Complete               | Completed               |
-| EDA and visualizations              | Upcoming / In progress | [Add date]              |
-| Workflow automation                 | In progress            | [Add date]              |
+| EDA and visualizations              | Complete               | Completed               |
+| Workflow automation                 | In progress            | Before final submission |
 | Data dictionary and documentation   | Completed              | Completed               |
 | Reproducibility testing             | Pending                | Before final submission |
 | Final report and presentation       | Pending                | Week 6                  |

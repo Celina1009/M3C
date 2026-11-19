@@ -111,7 +111,7 @@ After integration, our QA checks showed that all three datasets had unique FIPS 
 
 ### Monika Saravanakumar – Integration Lead
 
-Monika worked on the geographic crosswalk and integration of the three datasets. She prepared the GDX datasets for all three years, aggregated the FY2023 VetPop data into county-level population totals, and validated the recipient datasets. She also created the integration scripts, generated the final FY2023–FY2025 integrated datasets, and performed post-integration quality checks. She documented unmatched geographic records and pushed the completed scripts, datasets, and QA reports to GitHub.
+I worked on the geographic crosswalk and integration of the three datasets. I prepared the GDX datasets for all three years, aggregated the FY2023 VetPop data into county-level population totals, and validated the recipient datasets. I also created the integration scripts, generated the final FY2023–FY2025 integrated datasets, and performed post-integration quality checks. I documented unmatched geographic records and pushed the completed scripts, datasets, and QA reports to GitHub.
 
 ### Celina Saeki – Data Lead
 
